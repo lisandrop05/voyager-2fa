@@ -1,6 +1,6 @@
 {
-    "name": "emptynick/voyager-2fa",
-    "description": "Two-factor authentication for Voyager II",
+    "name": "lisandrop05/voyager-2fa",
+    "description": "Two-factor authentication for Voyager II (Updated)",
     "keywords": ["voyager2-plugin", "voyager", "2fa", "two", "factor", "auth", "authentication"],
     "license": "MIT",
     "authors": [
@@ -11,14 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Emptynick\\TwoFA\\": "src/"
+            "Lisandrop05\\TwoFA\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Emptynick\\TwoFA\\TwoFAServiceProvider"
+                "Lisandrop05\\TwoFA\\TwoFAServiceProvider"
             ]
         }
     },

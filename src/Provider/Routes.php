@@ -1,6 +1,6 @@
 <?php
 
-namespace Emptynick\TwoFA\Provider;
+namespace Lisandrop05\TwoFA\Provider;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;

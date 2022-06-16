@@ -1460,13 +1460,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Emptynick\\Tiptap\\TiptapServiceProvider"
+                        "Lisandrop05\\Tiptap\\TiptapServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Emptynick\\Tiptap\\": "src/"
+                    "Lisandrop05\\Tiptap\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

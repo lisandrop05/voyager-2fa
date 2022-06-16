@@ -1,6 +1,6 @@
 <?php
 
-namespace Emptynick\TwoFA;
+namespace Lisandrop05\TwoFA;
 
 use Illuminate\Support\ServiceProvider;
 use Voyager\Admin\Facades\Voyager as Voyager;
@@ -10,7 +10,7 @@ class TwoFAServiceProvider extends ServiceProvider
 {
     public function boot(PluginManager $pluginmanager)
     {
-        $pluginmanager->addPlugin(\Emptynick\TwoFA\TwoFA::class);
+        $pluginmanager->addPlugin(\Lisandrop05\TwoFA\TwoFA::class);
 
         $this->loadTranslationsFrom(realpath(__DIR__.'/../resources/lang'), '2fa');
         Voyager::addTranslations('2fa', '2fa');
